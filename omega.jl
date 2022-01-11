@@ -8,6 +8,7 @@ using InteractiveUtils
 begin
 	import Pkg
 	Pkg.activate(@__DIR__)
+	Pkg.instantiate()
 	using ThreeBodyDecay
 	using Plots
 	import Plots.PlotMeasures: mm
